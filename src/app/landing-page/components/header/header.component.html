@@ -12,14 +12,14 @@
           <img [ngClass]="{ 'lang-inactive': currentLangSelected === 'en'}" (click)="translateApp('es')" class="lang-img" src="assets/images/es.svg" />
         </div>
       </div>
-      <div class="bot-img-container col-12 col-md-6 d-flex align-items-end px-md-0 animate__animated animate__bounceIn animate__slow animate__delay-1s">
+      <div class="bot-img-container col-12 col-sm-6 d-flex d-none align-items-end px-md-0 animate__animated animate__bounceIn animate__slow animate__delay-1s">
         <img
         class = "bot-img"
         src="assets/images/bot3d.png"
         alt="home phone"
         />
       </div>
-      <div class="col-12 col-md-6 pt-4 header-text">
+      <div class="col-12 col-sm-6 pt-md-4 header-text">
           <h1 class="IDA animate__animated animate__bounceIn animate__slow animate__delay-1s"> {{ "EXIS_IDA" | translate }} </h1>
           <h1 class="welcome animate__animated animate__bounceIn animate__slow animate__delay-1s"> {{ "WELCOME" | translate }} </h1>
           <h3 class="slogan animate__animated animate__fadeInLeft animate__slower animate__delay-2s">{{ "SLOGAN" | translate }}</h3>

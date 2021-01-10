@@ -4,7 +4,7 @@
       <div class="blue-separator"></div>
     </div>
   <div class="row">
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-md-6 col-lg-3">
       <div class="card channel-cards" (mouseover)="pulseIcon(1)" [ngClass]="pulseIconNumber == 1 ? pulseClass : ''">
         <fa-icon class="channel-icon" [icon]="faDesktop"></fa-icon>
         <p class="channel-name">{{ "WEB_CHAT" | translate }}</p>
@@ -19,7 +19,7 @@
         </div>
       </div>
     </div>
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-md-6 col-lg-3">
       <div class="card channel-cards" (mouseover)="pulseIcon(3)" [ngClass]="pulseIconNumber == 3 ? pulseClass : ''">
         <fa-icon class="channel-icon" [icon]="faWhatsapp"></fa-icon>
         <p class="channel-name">{{ "WHATSAPP" | translate }}</p>
@@ -39,7 +39,7 @@
         </div>
       </div>
     </div>
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-md-6 col-lg-3">
       <div class="card channel-cards" (mouseover)="pulseIcon(2)" [ngClass]="pulseIconNumber == 2 ? pulseClass : ''">
         <fa-icon class="channel-icon" [icon]="faCommentDots"></fa-icon>
         <p class="channel-name">{{ "SMS" | translate }}</p>
@@ -51,7 +51,7 @@
         </div>
       </div>
     </div>
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-md-6 col-lg-3">
       <div class="card channel-cards" (mouseover)="pulseIcon(4)" [ngClass]="pulseIconNumber == 4 ? pulseClass : ''">
         <fa-icon class="channel-icon" [icon]="faPhone"></fa-icon>
         <p class="channel-name">{{ "VOICE" | translate }}</p>

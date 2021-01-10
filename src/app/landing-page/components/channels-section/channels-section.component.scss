@@ -23,6 +23,16 @@
   font-weight: 300;
 }
 
+@media (max-width: 830px) and (max-height: 420px) {
+  .channel-cards {
+    margin-bottom: 2rem;
+  }
+
+  .com-channels {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 768px) {
   .channel-cards {
     margin-bottom: 2rem;
