@@ -1,0 +1,67 @@
+<div class="section-separator container">
+    <h1 id="channels" class="com-channels">{{ "OUR_COMMUNICATION_CHANNELS" | translate }}</h1>
+    <div class="d-flex justify-content-center">
+      <div class="blue-separator"></div>
+    </div>
+  <div class="row">
+    <div class="col-12 col-md-3">
+      <div class="card channel-cards" (mouseover)="pulseIcon(1)" [ngClass]="pulseIconNumber == 1 ? pulseClass : ''">
+        <fa-icon class="channel-icon" [icon]="faDesktop"></fa-icon>
+        <p class="channel-name">{{ "WEB_CHAT" | translate }}</p>
+        <div class="info d-flex flex-column">
+          <p class="mb-4">{{ "CONTACT_US_WEB_CHAT" | translate }}</p>
+          <button
+            type="button"
+            class="btn mt-auto btn-wa btn-blue"
+          >
+           {{ "CHAT_WITH_US" | translate }}
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-3">
+      <div class="card channel-cards" (mouseover)="pulseIcon(3)" [ngClass]="pulseIconNumber == 3 ? pulseClass : ''">
+        <fa-icon class="channel-icon" [icon]="faWhatsapp"></fa-icon>
+        <p class="channel-name">{{ "WHATSAPP" | translate }}</p>
+        <div class="info d-flex flex-column">
+          <p class="mb-3">{{ "SEND_MESSAGE_TO_NUMBER" | translate }}</p>
+          <p class="contact-number"> +1-(303) 536-8035</p>
+          <div class="d-flex justify-content-center">
+            <div class="divider"></div>
+          </div>
+          <p class="mt-3 mb-3">{{ "USE_DIRECT_LINK" | translate }}</p>
+          <button
+              type="button"
+              class="btn mt-auto btn-wa btn-green"
+            >
+              {{ "EXIS_WA" | translate }}
+            </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-3">
+      <div class="card channel-cards" (mouseover)="pulseIcon(2)" [ngClass]="pulseIconNumber == 2 ? pulseClass : ''">
+        <fa-icon class="channel-icon" [icon]="faCommentDots"></fa-icon>
+        <p class="channel-name">{{ "SMS" | translate }}</p>
+        <div class="info d-flex align-items-center">
+          <div style="width: 100%;">
+            <p class="contact-number"> +1-(303) 536-8035</p>
+            <p class="contact-number"> +1-(303) 123-4567</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-3">
+      <div class="card channel-cards" (mouseover)="pulseIcon(4)" [ngClass]="pulseIconNumber == 4 ? pulseClass : ''">
+        <fa-icon class="channel-icon" [icon]="faPhone"></fa-icon>
+        <p class="channel-name">{{ "VOICE" | translate }}</p>
+        <div class="info d-flex align-items-center">
+          <div style="width: 100%;">
+            <p class="contact-number"> +1-(303) 536-8035</p>
+            <p class="contact-number"> +1-(303) 123-4567</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

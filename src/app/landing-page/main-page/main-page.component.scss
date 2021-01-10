@@ -1,0 +1,32 @@
+.header {
+  height: 90vh;
+  background: linear-gradient(
+    180deg,
+    rgba(30, 36, 52, 1) 21%,
+    rgba(32, 45, 75, 1) 78%,
+    rgba(37, 51, 82, 1) 88%,
+    rgba(34, 43, 62, 1) 100%
+  );
+}
+
+.channels-background {
+  background: linear-gradient(
+    300deg,
+    rgba(20, 20, 20, 1) 0%,
+    rgba(30, 30, 30, 1) 50%,
+    rgba(41, 41, 41, 1) 100%
+  );
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+  .channels-background {
+    padding-bottom: 0rem;
+  }
+}
+
+.footer {
+  // background: linear-gradient(180deg, #1e2434 21%, #1f283f 78%);
+  background: rgba(27, 36, 54, 1);
+  height: 70px;
+}
