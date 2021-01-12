@@ -13,9 +13,14 @@
           <button
             type="button"
             class="btn mt-auto btn-wa btn-blue"
+            (click)="goToWebChat()"
+
           >
            {{ "CHAT_WITH_US" | translate }}
           </button>
+          <!-- 
+            <app-rwc *ngIf="showWebChat" ></app-rwc>
+          -->
         </div>
       </div>
     </div>
@@ -33,6 +38,7 @@
           <button
               type="button"
               class="btn mt-auto btn-wa btn-green"
+              (click)="goToWhatsapp()"
             >
               {{ "EXIS_WA" | translate }}
             </button>
@@ -45,8 +51,8 @@
         <p class="channel-name">{{ "SMS" | translate }}</p>
         <div class="info d-flex align-items-center">
           <div style="width: 100%;">
-            <p class="contact-number"> +1-(303) 536-8035</p>
-            <p class="contact-number"> +1-(303) 123-4567</p>
+            <p class="contact-number"> +1-(276) 200-2973</p>
+            <p class="contact-number"> +1-(571) 210-7252</p>
           </div>
         </div>
       </div>
@@ -57,8 +63,7 @@
         <p class="channel-name">{{ "VOICE" | translate }}</p>
         <div class="info d-flex align-items-center">
           <div style="width: 100%;">
-            <p class="contact-number"> +1-(303) 536-8035</p>
-            <p class="contact-number"> +1-(303) 123-4567</p>
+            <p class="contact-number"> +1-(276) 200-2973</p>
           </div>
         </div>
       </div>

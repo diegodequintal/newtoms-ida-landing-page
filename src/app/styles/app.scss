@@ -63,3 +63,9 @@ button:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: #253557;
 }
+
+.orrwc-ActivateButton {
+  background-color: $blue-color !important;
+  border: 1px solid $blue-color !important;
+  top: 80vh !important;
+}

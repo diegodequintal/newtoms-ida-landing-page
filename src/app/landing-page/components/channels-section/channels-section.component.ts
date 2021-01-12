@@ -16,6 +16,8 @@ export class ChannelsSectionComponent implements OnInit {
   faCommentDots = faCommentDots;
   faPhone = faPhone;
   pulseClass = 'animate__animated animate__faster animate__pulse';
+
+  showWebChat = false;
   
   pulseIconNumber = 0;
 
@@ -26,5 +28,14 @@ export class ChannelsSectionComponent implements OnInit {
 
   pulseIcon(channel: number): void{
     this.pulseIconNumber = channel;
+  }
+
+  goToWebChat() {
+    window.open('https://rwc.staging.onereach.ai/c/0mPM26c/i.html');
+    // this.showWebChat = !this.showWebChat;
+  }
+
+  goToWhatsapp() {
+    window.open('https://wa.me/13035368035?text=Hola%20IDA');
   }
 }

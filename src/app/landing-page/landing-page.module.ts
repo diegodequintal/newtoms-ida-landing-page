@@ -10,9 +10,10 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ChannelsSectionComponent } from './components/channels-section/channels-section.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { RwcComponent } from './components/rwc/rwc.component';
 
 @NgModule({
-  declarations: [MainPageComponent, HeaderComponent, ChannelsSectionComponent, FooterComponent],
+  declarations: [MainPageComponent, HeaderComponent, ChannelsSectionComponent, FooterComponent, RwcComponent],
   imports: [
     CommonModule,
     LandingPageRoutingModule,
